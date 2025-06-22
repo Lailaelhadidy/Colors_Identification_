@@ -5,7 +5,7 @@ import pandas as pd
 video = cv2.VideoCapture('video.mp4')
 
 # Load color dataset
-color_names_set = pd.read_csv(r'D:\internships\color_detection_project\colors.csv') #loading the dataset to check the color name by values
+color_names_set = pd.read_csv(r'D:colors.csv') #loading the dataset to check the color name by values
 
 last_click = None
 color_text = ""
