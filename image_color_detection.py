@@ -5,7 +5,7 @@ import pandas as pd
 img= cv2.imread('img.jpg', 1) #read image
 img= cv2.resize(img, (0,0), fx=0.9, fy=0.9) #fx/fy will multiply the axes by the num, given with a must of (0,0)
 
-color_names_set = pd.read_csv(r'D:\internships\color_detection_project\colors.csv') #loading the dataset file to check the color name by values
+color_names_set = pd.read_csv(r'D:colors.csv') #loading the dataset file to check the color name by values
 original_img = img.copy()  # Save the unmodified version to reset later
 
 
